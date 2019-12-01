@@ -115,7 +115,7 @@ class Grid
     if (index < this.listRenders.size())
     {
       this.gridCellRender = listRenders.get(index);
-
+      this.bUpdateControls = true;
       this.bComputeGridVec = true;
     }
   }
